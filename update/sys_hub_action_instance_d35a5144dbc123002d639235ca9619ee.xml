@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <comment>Update State and Work Notes</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">10c759c0dbc123002d639235ca961955</flow>
+        <order>4.1</order>
+        <parent_ui_id>3d3bc73d-ea69-42b6-8e72-fb91555c63f1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:45</sys_created_on>
+        <sys_id>d35a5144dbc123002d639235ca9619ee</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d35a5144dbc123002d639235ca9619ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:17:28</sys_updated_on>
+        <ui_id>5b87ede0-87e6-44f7-be42-8fd6a6aa88e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d35a5144dbc123002d639235ca9619ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d35a5144dbc123002d639235ca9619ee</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:45</sys_created_on>
+        <sys_id>1b5a5144dbc123002d639235ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:45</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d35a5144dbc123002d639235ca9619ee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:45</sys_created_on>
+        <sys_id>575a5144dbc123002d639235ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:45</sys_updated_on>
+        <value>state=4^work_notes=Record was closed because it was too far past the due date.</value>
+        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d35a5144dbc123002d639235ca9619ee</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:46</sys_created_on>
+        <sys_id>6f5a9144dbc123002d639235ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:46</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d35a5144dbc123002d639235ca9619ee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:46</sys_created_on>
+        <sys_id>ab5a9144dbc123002d639235ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:46</sys_updated_on>
+        <value>state=4^work_notes=Record was closed because it was too far past the due date.</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d35a5144dbc123002d639235ca9619ee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d35a5144dbc123002d639235ca9619ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:45</sys_created_on>
+        <sys_id>135a5144dbc123002d639235ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{3d3bc73d-ea69-42b6-8e72-fb91555c63f1.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d35a5144dbc123002d639235ca9619ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:46</sys_created_on>
+        <sys_id>675a9144dbc123002d639235ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{3d3bc73d-ea69-42b6-8e72-fb91555c63f1.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d35a5144dbc123002d639235ca9619ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:45</sys_created_on>
+        <sys_id>5f5a5144dbc123002d639235ca9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d35a5144dbc123002d639235ca9619ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:46</sys_created_on>
+        <sys_id>a35a9144dbc123002d639235ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d35a5144dbc123002d639235ca9619ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:46</sys_created_on>
+        <sys_id>2b5a9144dbc123002d639235ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d35a5144dbc123002d639235ca9619ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 18:13:45</sys_created_on>
+        <sys_id>d35a5144dbc123002d639235ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
